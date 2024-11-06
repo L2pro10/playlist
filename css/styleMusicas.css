@@ -1,0 +1,73 @@
+.body{
+    background-color: #585858;
+    display: flex;
+}
+.box{
+    
+    background-color: black;
+    width:auto;
+    height: auto;
+    padding-left: 2pc;
+    
+}
+.titulo{
+    text-align: start;
+    color: white;
+    margin-top: 4pc;
+    margin-left: 1pc;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+    margin-right: 35pc;
+}
+.corpo{
+color: white; 
+text-align: start;
+}
+.video{
+    margin-right: 5pc;
+    margin-top: 7pc;
+    border-style: solid;
+    border-color: white;
+    width: 600px;
+    height: 350px;
+}
+.divvideo{
+    display: flex;
+   align-content: flex-end;
+   
+}
+.letra{
+color: white;
+}
+.marcador{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.botao{
+    transform: scale(1.5);
+    margin-bottom: 2pc;
+    margin-left: 9pc;
+    border: solid 1px blue;
+    border-radius: 20px;
+    color: blue;
+    background-color: white;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+line-height: 200%;
+border: solid;
+text-align: left
+
+}
+.botao:hover{
+    background-color: rgb(255, 255, 255);
+    color: purple;
+    border: solid purple;
+    border-radius: 20px;
+    transform: scale(1.8)
+
+}
+.box1{
+    
+    background-color: black;
+
+ 
+}
